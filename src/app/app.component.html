@@ -1,0 +1,79 @@
+  <div class="container-menu">
+
+    <div class="example-sidenav-content" [ngClass]="{'menu-oculto': sideBarOpen}">
+      <div class="contendor-search divide">
+        <img src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/ic_search_white_24px.svg" class="img-search" />
+        <input
+          type="search"
+          name="search"
+          id="search"
+          class="search-control"
+          placeholder="Buscar"
+        />
+        <button class="sidenav-refresh" type="button" onclick="document.location.reload();">
+          <img  class="img-refresh" src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/ic_refresh_24px.svg"/>
+          </button>
+
+          <button class="sidenav-refresh" type="button" onclick="document.location.reload();">
+            <img  class="puntos" src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/Ic_PointCommands.svg"/>
+            </button>
+
+      </div>
+      <div class="contendor-filtro divide">
+        <p class="text text-liso"><span>2</span> Vehiculos</p>
+        <p class="text text-fuerte">
+          Filtrar
+          <span><img src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/ic_filter.svg" class="img-filter" /></span>
+        </p>
+      </div>
+      <div class="item divide">
+        <div class="item-header">
+          <div>
+            <img src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/Ic_Sin_Senal.svg" alt="xxx" class="img-left" />
+            Prueba1
+          </div>
+          <div>
+            <img
+              src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/ic_enabled_vehicle_route.png"
+              alt="xxx"
+              class="img-left"
+            />
+          </div>
+        </div>
+        <p class="text text-parrafo">
+          <span>17/07/2022 10:54 pm</span>
+          <span> via urbana santa rosa</span>
+        </p>
+      </div>
+      <div class="item divide">
+        <div class="item-header">
+          <div>
+            <img src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/ic-signal-off.svg" alt="xxx" class="img-left" />
+            Prueba2
+          </div>
+          <div>
+            <img
+              src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/ic_enabled_vehicle_route.png"
+              alt="xxx"
+              class="img-left"
+            />
+          </div>
+        </div>
+        <p class="text text-parrafo">
+          <span>17/07/2022 10:54 pm</span>
+          <span> via urbana santa rosa</span>
+        </p>
+      </div>
+
+    </div>
+
+    <button class="bot boton-abierto" [ngStyle]="{'display': sideBarOpen ? 'none' : '' }"  type="button" mat-button (click)="sideBarToggler()">
+      <img src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/flecha2.png"/>
+    </button>
+
+    <button class="bot boton-cerrado" [ngStyle]="{'display': !sideBarOpen ? 'none' : '' }" type="button" mat-button (click)="sideBarToggler()">
+      <img src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/flecha.png"/>
+    </button>
+
+  </div>
+

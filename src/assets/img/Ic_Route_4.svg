@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="12" cy="12" r="10" fill="#FFB500" stroke="#FFF"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M14.166 17v-2.31h1.38v-1.033h-1.38v-6.61h-1.347l-4.457 6.897v.745h4.533V17h1.271zm-1.271-3.343H9.798l2.946-4.607.15-.274v4.881z"/>
+    </g>
+</svg>

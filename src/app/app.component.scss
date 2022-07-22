@@ -1,0 +1,158 @@
+.container-menu{
+  position: relative;
+}
+
+.example-sidenav-content{
+  position: relative;
+  background-color: #fff;
+  width: 250px;
+  height: 100vh;
+  padding-top: 5px;
+  padding-right: 10px;
+
+}
+
+.bot{
+  align-content: center;
+  position:absolute;
+  top: 300px;
+}
+
+.boton-abierto{
+  left: 250px;
+  z-index: 100;
+}
+
+
+.boton-cerrado{
+  left: -22px;
+}
+
+.menu-oculto{
+  display: none;
+}
+
+
+
+
+
+#txtSearch {
+  background-color: #FAFAFA;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-width: 1px;
+  border-bottom-style: double;
+  height: 48px;
+ }
+
+
+  .divide {
+    border-bottom: 2px solid rgb(160, 156, 156);
+  }
+
+  .contendor-search {
+    width: 270px;
+    height: 50px;
+    background-color: rgb(243, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contendor-filtro {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 237, 237);
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 270px;
+
+  }
+
+  .text {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(121, 119, 119);
+  }
+
+  .text-liso {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .text-fuerte {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .text-parrafo {
+    font-size: 12px;
+  }
+
+  .search-control {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(243, 237, 237);
+    right: 110px;
+    position:absolute;
+    outline: 0;
+}
+
+  .item {
+    padding-left: 20px;
+    padding-top: 5px;
+    background-color: rgb(255, 250, 250);
+    width: 270px;
+    height: 80px;
+
+  }
+
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .img-left {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+    left: 1px;
+  }
+
+  .img-search {
+    margin-left: -2px;
+    padding-right: 100px;
+    right: 120px;
+    position:absolute
+  }
+
+  .img-filter {
+    position: relative;
+    top: 2px;
+  }
+
+  .sidenav-refresh {
+    margin-top: 12px;
+    margin-left: 20px;
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.12);
+    border-width: 0.5px !important;
+    outline: none !important;
+    cursor: pointer !important; }
+
+
+    .img-refresh{
+      margin-left: -2px;
+      right: 35px;
+      position:absolute;
+      top: 15px;
+    }
+
+    .puntos{
+      margin-left: -2px;
+      right: -5px;
+      position:absolute;
+      top: 15px;
+    }
+

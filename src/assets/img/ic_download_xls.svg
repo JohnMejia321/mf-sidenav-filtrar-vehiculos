@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>download_xls</title>
+    <g id="download_xls" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+            <polygon id="Fill-1" fill="#757575" points="15.5002 14.9998 15.5002 18.0008 13.0002 18.0008 16.9992 21.9998 21.0002 18.0008 18.5002 18.0008 18.5002 14.9998"></polygon>
+            <path d="M10.7891,20 L6.0001,20 L6.0001,4 L13.0001,4 L13.0001,9 L18.0001,9 L18.0001,12.731 L20.0001,12.731 L20.0001,8 L14.0001,2 L6.0001,2 C4.8951,2 4.0001,2.896 4.0001,4 L4.0001,20 C4.0001,21.104 4.8951,22 6.0001,22 L12.7891,22 L10.7891,20 Z" id="Fill-2" fill="#757575"></path>
+            <polygon id="Fill-4" fill="#757575" points="10.4575 12.9644 12.6135 16.3094 11.2755 16.3094 9.7885 13.7824 8.3025 16.3094 6.9635 16.3094 9.1195 12.9644 6.9635 9.6194 8.3025 9.6194 9.7885 12.1464 11.2755 9.6194 12.6135 9.6194"></polygon>
+        </g>
+    </g>
+</svg>

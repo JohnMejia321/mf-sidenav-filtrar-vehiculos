@@ -8,21 +8,24 @@
           name="search"
           id="search"
           class="search-control"
-          placeholder="Buscar"
+          placeholder='{{"buscar" | translate}}'
         />
         <button class="sidenav-refresh" type="button" onclick="document.location.reload();">
           <img  class="img-refresh" src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/ic_refresh_24px.svg"/>
           </button>
 
-          <button class="sidenav-refresh" type="button" onclick="document.location.reload();">
+          <button class="sidenav-refresh click" type="button" (click)="mostrarLista()">
             <img  class="puntos" src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/Ic_PointCommands.svg"/>
             </button>
-
+            <div class="list" #list>
+              <button class="links">{{"descargar" | translate}}</button>
+              <button class="links">{{"vehiculocercano" | translate}}</button>
+          </div>
       </div>
       <div class="contendor-filtro divide">
-        <p class="text text-liso"><span>2</span> Vehiculos</p>
+        <p class="text text-liso"><span>2</span> {{"vehiculo" | translate}}</p>
         <p class="text text-fuerte">
-          Filtrar
+          {{"filtrar" | translate}}
           <span><img src="https://raw.githubusercontent.com/JohnMejia321/imagenes/master/ic_filter.svg" class="img-filter" /></span>
         </p>
       </div>
@@ -76,4 +79,12 @@
     </button>
 
   </div>
+
+  <!-- <script>
+    let click = document.querySelector('.click');
+    let list = document.querySelector('.list');
+    click.addEventListener("click",()=>{
+        list.classList.toggle('newlist');
+    });
+</script> -->
 
